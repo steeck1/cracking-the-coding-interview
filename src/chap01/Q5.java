@@ -10,7 +10,10 @@ import static helpers.Printer.*;
  */
 public class Q5 {
     static String compress(String s) {
-        if (s == null || s.isEmpty()) return s;
+        
+        s = "aaaabbbccdddaaa"
+       // if (s == null || s.isEmpty()) return s;
+            //i set the string to something assuming no user input
 
         char prev = s.charAt(0);
         int cnt = 1;
